@@ -7,7 +7,6 @@
 
 Of the various grocery outlets within the company, those that classify as "medium-sized" will continue to perform better in reference to sales when compared to those that are classified as "Small" and "Large".
 
-
 ### Data:
 The data utilized was provided from a third-party source and was cleaned in order to find a more accurate representation of sales figures across the company.
 
@@ -32,14 +31,11 @@ To give further weight to how crucial specific product sales are when looking at
 
 ## Model
 
-In the final model created, I chose to process the data with both a simple analysis and one that is more specific to the size of the data itself. As assumed, when using a more specific narrowing of the data, it was seen that the margins provided by the algorithm were smaller and the sales figures were more close together.
-
-The most important metrics found within the model was the root mean squared error that was created thanks to some machine learning. When initiated it could be seen that the RMSE margins of sales, even using the same units as our target data, were closely correlated. By utilizing this information with finer specifications, the model would most likely be able to locate what exact types of stores are yielding the greatest sales figures and also allow the company to change the facets of non-performing stores to be more succesful.
+The most important metrics found within the model was the root mean squared error that was created thanks to some machine learning. When initiated it could be seen that the RMSE margins of sales in our Linear Regression model, using the same dollar values also used in the data set, were closely correlated; $1140.73 in our Training set but $1088.77 in our Testing set.
 
 ## Recommendations:
 
 My recommendation is for the company to seek out which stores are underutilzing the various categories within their own store such as the MRP of certain items, and maybe maximizing the visibility of items that have been shown to perform better in more successful stores.
-
 
 ## Limitations & Next Steps
 
@@ -47,6 +43,5 @@ Some limitations present in this research were indicators such as geographic loc
 
 
 ### For further information
-
 
 For any additional questions, please contact ajcafiero58@gmail.com or via my LinkedIn profile located at https://www.linkedin.com/in/acafiero/
